@@ -30,7 +30,7 @@ public class SignUpController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=UTF-8");
-		String user = request.getParameter("name");
+		String user = request.getParameter("user");
 		String pass = request.getParameter("pass");
 		String repass = request.getParameter("repass");
 		String error ="";
